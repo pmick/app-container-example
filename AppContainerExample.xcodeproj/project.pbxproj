@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		CD13D30D227DFEA600508D03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13D30C227DFEA600508D03 /* AppDelegate.swift */; };
-		CD13D30F227DFEA600508D03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13D30E227DFEA600508D03 /* ViewController.swift */; };
 		CD13D314227DFEA700508D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD13D313227DFEA700508D03 /* Assets.xcassets */; };
 		CD13D317227DFEA700508D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD13D315227DFEA700508D03 /* LaunchScreen.storyboard */; };
 		CD13D31F227DFEC000508D03 /* FlowContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13D31E227DFEC000508D03 /* FlowContainerViewController.swift */; };
+		CD13D323227E226800508D03 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13D322227E226800508D03 /* UserStore.swift */; };
+		CD13D325227E243900508D03 /* KittyFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13D324227E243900508D03 /* KittyFeedViewController.swift */; };
+		CD13D327227E28E100508D03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13D326227E28E100508D03 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CD13D309227DFEA600508D03 /* AppContainerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppContainerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD13D30C227DFEA600508D03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CD13D30E227DFEA600508D03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD13D313227DFEA700508D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD13D316227DFEA700508D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD13D318227DFEA700508D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD13D31E227DFEC000508D03 /* FlowContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowContainerViewController.swift; sourceTree = "<group>"; };
+		CD13D322227E226800508D03 /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		CD13D324227E243900508D03 /* KittyFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittyFeedViewController.swift; sourceTree = "<group>"; };
+		CD13D326227E28E100508D03 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				CD13D30C227DFEA600508D03 /* AppDelegate.swift */,
-				CD13D30E227DFEA600508D03 /* ViewController.swift */,
 				CD13D313227DFEA700508D03 /* Assets.xcassets */,
 				CD13D315227DFEA700508D03 /* LaunchScreen.storyboard */,
 				CD13D318227DFEA700508D03 /* Info.plist */,
 				CD13D31E227DFEC000508D03 /* FlowContainerViewController.swift */,
+				CD13D322227E226800508D03 /* UserStore.swift */,
+				CD13D324227E243900508D03 /* KittyFeedViewController.swift */,
+				CD13D326227E28E100508D03 /* LoginViewController.swift */,
 			);
 			path = AppContainerExample;
 			sourceTree = "<group>";
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD13D325227E243900508D03 /* KittyFeedViewController.swift in Sources */,
 				CD13D31F227DFEC000508D03 /* FlowContainerViewController.swift in Sources */,
-				CD13D30F227DFEA600508D03 /* ViewController.swift in Sources */,
+				CD13D323227E226800508D03 /* UserStore.swift in Sources */,
+				CD13D327227E28E100508D03 /* LoginViewController.swift in Sources */,
 				CD13D30D227DFEA600508D03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

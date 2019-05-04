@@ -15,7 +15,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         window = UIWindow()
-        window?.rootViewController = FlowContainerViewController()
+        let splashViewController = UIStoryboard(name: "LaunchScreen", bundle: nil).instantiateInitialViewController()!
+        window?.rootViewController = FlowContainerViewController(initialChildViewController: splashViewController)
         window?.makeKeyAndVisible()
         
         return true

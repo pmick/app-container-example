@@ -14,7 +14,6 @@ struct User {
 
 final class UserStore {
     var currentUser: User? {
-        return nil
         return User(email: "cool_dood@gmail.com")
     }
 }
